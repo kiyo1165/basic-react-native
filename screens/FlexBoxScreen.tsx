@@ -15,7 +15,10 @@ export const FlexBoxScreen: VFC<Props> = ({ navigation }) => {
     };
   }, []);
   return (
-    <View style={tw('flex-1 bg-gray-300 justify-center items-center')}>
+    <View style={tw('flex-1  bg-gray-300 justify-center items-center')}>
+      {/* <View style={tw('w-16 h-16 bg-indigo-500')} />
+      <View style={tw('w-16 h-16 bg-green-200')} />
+      <View style={tw('w-16 h-16 bg-red-200')} /> */}
       <Text>FlexBoxScreen</Text>
       <View style={tw('my-3')}>
         <Button
